@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'bai2'
-  spec.version       = '2.0.1'
-  spec.authors       = ['Kenneth Ballenegger']
-  spec.email         = ['kenneth@ballenegger.com']
+  spec.version       = '2.1.0'
+  spec.authors       = ['Kenneth Ballenegger', 'Andre Ramaciotti']
+  spec.email         = ['kenneth@ballenegger.com', 'andre@tremendous.com']
   spec.summary       = %q{Parse BAI2 files.}
   spec.description   = %q{Parse BAI2 files.}
-  spec.homepage      = 'https://github.com/venturehacks/bai2'
+  spec.homepage      = 'https://github.com/tremendous-rewards/bai2'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")

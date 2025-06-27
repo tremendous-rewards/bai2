@@ -77,6 +77,7 @@ module Bai2
     150 => [:credit, :summary, %q{Total Preauthorized Payment Credits}],
     155 => [:credit, :detail,  %q{Preauthorized Draft Credit}],
     156 => [:credit, :detail,  %q{Item in PAC Deposit}],
+    158 => [:credit, :detail,  %q{Insta-Payment Credit Received}],
     160 => [:credit, :summary, %q{Total ACH Disbursing Funding Credits}],
     162 => [:credit, :summary, %q{Corporate Trade Payment Settlement}],
     163 => [:credit, :summary, %q{Corporate Trade Payment Credits}],

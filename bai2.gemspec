@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'bai2'
-  spec.version       = '2.1.0'
+  spec.version       = '2.2.0'
   spec.authors       = ['Kenneth Ballenegger', 'Andre Ramaciotti']
   spec.email         = ['kenneth@ballenegger.com', 'andre@tremendous.com']
   spec.summary       = %q{Parse BAI2 files.}
